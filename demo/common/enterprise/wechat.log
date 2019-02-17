@@ -1,0 +1,34 @@
+[2018-07-07 09:58:36] NULL.INFO: >>>>>>>>
+GET /cgi-bin/user/get?access_token=Xcw_4FJNwkoQI2A-UIyZit1z9OgJuPaJ2Yp07YTfQZy88WYvgguInEyDhu3hMljJ8B7NhaKpsdm-qQequTwKqQvCAFHdhVfBwl9B1O74vCgwbzCusTpeeegmLbuVNQIFuv2AzWkIE6raGn0a-FBxOvviNOi8izOiSti8zQ8jTjK0fV69zIdjjRXIuZ66FdNNAWPLExtounxFTgHDgM2EJg&userid=overtrue HTTP/1.1
+Host: qyapi.weixin.qq.com
+User-Agent: GuzzleHttp/6.2.1 curl/7.59.0 PHP/7.1.18
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: close
+Error-Code: 60111
+Error-Msg: userid not found, hint: [1530928875_5_0a90e4d3e41306c264b4516d88cb3179], more info at https://open.work.weixin.qq.com/devtool/query?e=60111
+Content-Type: application/json; charset=UTF-8
+Content-Length: 195
+
+{"errcode":60111,"errmsg":"userid not found, hint: [1530928875_5_0a90e4d3e41306c264b4516d88cb3179], more info at https://open.work.weixin.qq.com/devtool/query?e=60111","department":[],"order":[]}
+--------
+NULL  
+[2018-07-07 10:01:36] NULL.INFO: >>>>>>>>
+GET /cgi-bin/user/get?access_token=Xcw_4FJNwkoQI2A-UIyZit1z9OgJuPaJ2Yp07YTfQZy88WYvgguInEyDhu3hMljJ8B7NhaKpsdm-qQequTwKqQvCAFHdhVfBwl9B1O74vCgwbzCusTpeeegmLbuVNQIFuv2AzWkIE6raGn0a-FBxOvviNOi8izOiSti8zQ8jTjK0fV69zIdjjRXIuZ66FdNNAWPLExtounxFTgHDgM2EJg&userid=WangCongRong HTTP/1.1
+Host: qyapi.weixin.qq.com
+User-Agent: GuzzleHttp/6.2.1 curl/7.59.0 PHP/7.1.18
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: close
+Error-Code: 0
+Error-Msg: ok
+Content-Type: application/json; charset=UTF-8
+Content-Length: 447
+
+{"errcode":0,"errmsg":"ok","userid":"WangCongRong","name":"王聪荣","department":[1],"position":"","mobile":"13235024110","gender":"1","email":"","avatar":"http://p.qlogo.cn/bizmail/3Q6bggjt6WURxqnGEklS5bPbcVI8Dme2SCBRTQrM3RXbOkPeOw2fKg/0","status":1,"isleader":0,"extattr":{"attrs":[]},"english_name":"","telephone":"","enable":1,"hide_mobile":0,"order":[0],"qr_code":"http://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc1b95c321d2dbccb4"}
+--------
+NULL  
